@@ -23,8 +23,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/simple-qr-code-component-using-html-and-css-kyEYJEfu5)
-- Live Site URL: [Add live site URL here](https://thiago-prates.github.io/qr-code-component/)
+- Solution URL: [Simple QR Code Component using HTML and CSS](https://www.frontendmentor.io/solutions/simple-qr-code-component-using-html-and-css-kyEYJEfu5)
+- Live Site URL: [Live Site](https://thiago-prates.github.io/qr-code-component/)
 
 ## My process
 
