@@ -1,0 +1,88 @@
+:root {
+  --white: #ffffff;
+  --light-gray: #d6e2f0;
+  --grayish-blue: #7b879d;
+  --dark-blue: #1f3251;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Outfit', sans-serif;
+}
+
+.container {
+  background-color: var(--light-gray);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+main {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+  background-color: var(--white);
+  padding: 2rem 1rem;
+  border-radius: 20px;
+
+  box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+main .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .image img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+main .description {
+  text-align: center;
+  width: 250px;
+}
+
+main .description h1 {
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--dark-blue);
+  margin: 1.2rem 0;
+}
+
+main .description p {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--grayish-blue);
+  margin-bottom: 2rem;
+}
+
+/* Footer ------------- */
+.attribution {
+  position: absolute;
+  bottom: 0;
+
+  margin: 0 auto;
+  width: 100%;
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: #3685ff;
+}
+
+.attribution a:hover {
+  border-bottom: 1.5px solid #3685ff;
+}
+/* 288 */
